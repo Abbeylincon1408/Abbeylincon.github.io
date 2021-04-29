@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+<title> Mubarak</title>
+</head>
+<body>
+<center><img src="mb.png" width="100" height="100"></center>
+<h1><center> KWARA STATE UNIVERSITY.</center></h1>
+<marquee><h3> Enjoy your stay! Start your journey..............</h3></marquee>
+<body background="bg 2.jpg" >
+ 
+<input id="user_name" type="text" class="form-control" name="user_name" value="" placeholder="Username" free-ng-model="login.user_name" free-ng-required="true" autofocus>
+                            <span class="help-block" free-ng-show="frmlogin.user_name.$invalid && frmlogin.user_name.$touched">Username is required</span>
+                            <!--<span class="help-block" free-ng-show="frmlogin.user_name.$error.user_name">Valid user_name is required</span>-->
+                                                    </div>
+<div free-ng-class="frmlogin.password.$invalid && frmlogin.password.$touched ? 'form-group has-error' : 'form-group'">
+                            <input id="password" type="password" class="form-control" placeholder="Password" name="password" free-ng-minlength="3" free-ng-model="login.password" free-ng-required="true">
+                            <span class="help-block"></span>
+                            
+                                                    </div>
+                        <a href="my first webpage.html"<button type="submit" class="btn btn-primary block full-width m-b" free-ng-click="confirmLogin($event)" free-ng-disabled="frmlogin.$invalid">Login</button></a>
+<br>
+<marquee direction="right"><h2 class="font-bold"><left><i><u>Welcome to</u></i></left> <br>Kwara State University.</h2></marquee direction>
+<div class="loginColumns animated fadeInDown" data-ng-init="zoomB()">
+        <div class="row">
+
+            <div class="col-md-6" style="text-align: center">
+<a href="https://myportal.mubarak.edu.ng/password/reset">
+                            <a href="RESET PASSWORD.HTML"<small>Forgot password?</small></a>
+                        </a>
+
+                        <p class="text-muted text-center">
+
+                            <small>Do not have an account?</small>
+                        </p>
+                        <a class="btn btn-sm btn-white btn-block" href="ADMISSION FORM.HTML">Create an account (For Applicant Only)</a>
+                    </form>
+                    <p class="m-t">
+                        <small>The best you can get</small>
+                    </p>
+<marquee direction="center"><h3> We are here to developed your future...</h3></marquee direction>
+</body>
+</head>
+</html>
